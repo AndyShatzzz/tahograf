@@ -1,0 +1,264 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  max-height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: image 5s 0.5s infinite;
+}
+
+.mainContainer {
+  width: 900px;
+  height: 470px;
+  overflow: scroll;
+}
+
+.img {
+  width: 165px;
+  height: 225px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.img:hover {
+  opacity: 0.8;
+  cursor: zoom-in;
+}
+
+.title {
+  width: 600px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  animation: text 5s 0.3s infinite;
+}
+
+.titleHidden {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+  visibility: hidden;
+  position: absolute;
+}
+
+.containerSecond {
+  background-color: #fff;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  justify-content: space-between;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.fade {
+  margin-top: 5px;
+  display: none;
+  transition: all 0.15s ease-in-out;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 500px;
+  transition: all 0.15s ease-in-out;
+}
+
+.service {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.service:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.serviceIsActive {
+  background-color: #eefbff;
+  color: #009fe3;
+  font-weight: 700;
+  padding-right: 40px;
+  border: none;
+  border-radius: 4px;
+  color: #22262d;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 20px;
+  padding: 15px 12px;
+  position: relative;
+  transition: all 0.15s ease-in-out;
+}
+
+.paragraf {
+  color: #fff;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  text-indent: 25px;
+  margin-bottom: 3px;
+}
+
+.isActive {
+  display: block;
+}
+
+@media screen and (max-width: 920px) {
+  .mainContainer {
+    width: 600px;
+    height: 470px;
+    overflow: scroll;
+  }
+
+  .title {
+    width: 270px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    animation: text 5s 0.3s infinite;
+  }
+
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .service {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .serviceIsActive {
+    background-color: #eefbff;
+    color: #009fe3;
+    font-weight: 700;
+    padding-right: 40px;
+    border: none;
+    border-radius: 4px;
+    color: #22262d;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 12px;
+    padding: 10px 8px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .mainContainer {
+    width: 300px;
+    height: 470px;
+    overflow: scroll;
+    display: block;
+  }
+
+  .title {
+    width: 300px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 65vh;
+    overflow: scroll;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+    padding: 0px;
+    border-radius: 20px;
+  }
+
+  .aboutContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 300px;
+  }
+
+  .service {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 2px;
+    padding: 8px 8px;
+  }
+
+  .serviceIsActive {
+    background-color: #eefbff;
+    color: #009fe3;
+    font-weight: 700;
+    padding-right: 40px;
+    border: none;
+    border-radius: 4px;
+    color: #22262d;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 2px;
+    padding: 8px 8px;
+    text-align: center;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    overflow: visible;
+  }
+
+  .paragraf {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}

@@ -1,0 +1,16 @@
+.containerContent {
+  width: 400px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 920px) {
+  .containerContent {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .containerContent {
+    width: 280px;
+  }
+}

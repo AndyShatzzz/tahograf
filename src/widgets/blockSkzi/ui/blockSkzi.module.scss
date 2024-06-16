@@ -1,0 +1,152 @@
+@keyframes animationButton {
+  from {
+    box-shadow: 0px 0px 0px #009fe3;
+  }
+  50% {
+    box-shadow: 0px 0px 20px #009fe3;
+  }
+  to {
+    box-shadow: 0px 0px 0px #009fe3;
+  }
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  max-height: 900px;
+  background-image: url("../images/blockSkzi.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contentContainer {
+  width: 650px;
+  height: calc(100% - 100px);
+  background-color: #fff;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.contentWrapper {
+  padding-top: 40px;
+  margin-left: 40px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.price {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: 60px;
+}
+
+.button {
+  margin: 0;
+  width: 270px;
+  font-size: 16px;
+  color: #fff;
+  height: 50px;
+  max-height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #009fe3;
+  animation: animationButton 2s ease infinite;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+.table {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 920px) {
+  .contentContainer {
+    width: 500px;
+  }
+
+  .contentWrapper {
+    padding-top: 40px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 670px;
+  }
+
+  .contentContainer {
+    width: 300px;
+    margin-left: 0;
+    height: calc(100% - 100px);
+  }
+
+  .contentWrapper {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  .price {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 30px;
+  }
+
+  .button {
+    width: 260px;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 30px;
+  }
+
+  .table {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 20px;
+  }
+}

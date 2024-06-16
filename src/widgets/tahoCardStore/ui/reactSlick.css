@@ -1,0 +1,16 @@
+.containerContentCard {
+  width: 300px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 920px) {
+  .containerContentCard {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .containerContentCard {
+    width: 280px;
+  }
+}

@@ -1,0 +1,304 @@
+@keyframes animationButton {
+  from {
+    box-shadow: 0px 0px 0px #009fe3;
+  }
+  50% {
+    box-shadow: 0px 0px 20px #009fe3;
+  }
+  to {
+    box-shadow: 0px 0px 0px #009fe3;
+  }
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.contentContainer {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.imageContainer {
+  width: 400px;
+  height: 279px;
+  position: relative;
+}
+
+.img {
+  width: 200px;
+  height: 279px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.descriptionContainer {
+  width: 50%;
+  margin-left: 50px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.price {
+  width: 180px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.button {
+  margin: 0;
+  width: 270px;
+  font-size: 16px;
+  color: #fff;
+  height: 50px;
+  max-height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #009fe3;
+  animation: animationButton 2s ease infinite;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.orderContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(104, 115, 123, 0.1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.listWrapper {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listContainer {
+  width: 420px;
+}
+
+.orderTitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.orderSubtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.table {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.listItem {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 920px) {
+  .contentContainer {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+
+  .imageContainer {
+    width: 300px;
+    height: 220px;
+    position: relative;
+  }
+
+  .button {
+    width: 250px;
+  }
+
+  .listWrapper {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .listContainer {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .contentContainer {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .descriptionContainer {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .imageContainer {
+    width: 280px;
+    height: 350px;
+    position: relative;
+  }
+
+  .button {
+    width: 250px;
+  }
+
+  .title {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    width: 180px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+  }
+
+  .listWrapper {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .listContainer {
+    width: 260px;
+    margin-bottom: 20px;
+  }
+
+  .orderTitle {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .orderSubtitle {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+    margin-bottom: 30px;
+  }
+
+  .table {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .listItem {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+}
