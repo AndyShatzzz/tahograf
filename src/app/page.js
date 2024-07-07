@@ -12,6 +12,7 @@ import WhyMe from "../widgets/whyMe/ui/whyMe";
 import TahoCardStore from "../widgets/tahoCardStore/ui/tahoCardStore";
 import BlockSkzi from "../widgets/blockSkzi/ui/blockSkzi";
 import TahoStore from "../widgets/tahoStore/ui/tahoStore";
+import Footer from "../widgets/footer/ui/footer";
 
 export default function Home() {
   const [isOpenModal, setIsOpenModal] = useState(false);
@@ -30,6 +31,7 @@ export default function Home() {
       <TahoCardStore />
       <BlockSkzi />
       <GoodsStore />
+      <Footer />
 
       <SpeedDial
         className={styles.speedDeal}

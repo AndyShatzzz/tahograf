@@ -33,7 +33,7 @@ export default function TahoStore() {
   };
 
   return (
-    <section className={styles.container}>
+    <section id="shop" className={styles.container}>
       <div className={styles.contentContainer}>
         <div className={styles.imageContainer}>
           <Slider {...settings}>
@@ -56,7 +56,7 @@ export default function TahoStore() {
             className={styles.button}
             onClick={() => setIsOpenModal(true)}
           >
-            Хочу
+            Заказать
           </button>
           <p className={styles.text}>
             Тахограф Drive Smart является улучшенной в техническом и

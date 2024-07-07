@@ -57,7 +57,7 @@ export default function TahoCardStore() {
             className={styles.button}
             onClick={() => setIsOpenModal(true)}
           >
-            Хочу
+            Заказать
           </button>
           <p className={styles.text}>
             Для идентификации личности водителю коммерческого и пассажирского

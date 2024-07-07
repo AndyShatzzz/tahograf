@@ -66,8 +66,12 @@ export default function Header() {
           <Link href="/requisites" className={styles.links}>
             РЕКВИЗИТЫ
           </Link>
-          <a className={styles.links}>МАГАЗИН</a>
-          <a className={styles.links}>КОНТАКТЫ</a>
+          <a href="/#shop" className={styles.links}>
+            МАГАЗИН
+          </a>
+          <a href="/#contacts" className={styles.links}>
+            КОНТАКТЫ
+          </a>
           <a className={styles.links}></a>
         </div>
         <div className={styles.containerFeedback}>
@@ -77,7 +81,7 @@ export default function Header() {
           <div className={styles.socials}>
             <a
               className={styles.linkSocial}
-              href="https://wa.me/79103571205"
+              href="https://wa.me/79005963293"
               target="blank"
             >
               <Avatar>
@@ -86,7 +90,7 @@ export default function Header() {
             </a>
             <a
               className={styles.linkSocial}
-              href="https://t.me/79103571205"
+              href="https://t.me/Anton391205"
               target="blank"
             >
               <Avatar>
