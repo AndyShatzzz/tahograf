@@ -143,7 +143,7 @@ export default function LoadingTaho() {
             <li className={styles.listItem}>Ежедневная сводка</li>
             <li className={styles.listItem}>Место ввода карты</li>
             <li className={styles.listItem}>
-              Сводка по &#34;общим данным деятельности&#34; водителя
+              {`Сводка по "общим данным деятельности" водителя`}
             </li>
           </ol>
         </div>

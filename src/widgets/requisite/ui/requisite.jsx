@@ -36,7 +36,7 @@ export default function Requisite() {
             <tbody>
               <tr className={styles.row}>
                 <td className={styles.leftRow}>Наименование:</td>
-                <td>ООО «ТахоДрайвер»</td>
+                <td>{`ООО "ТахоДрайвер"`}</td>
               </tr>
               <tr className={styles.row}>
                 <td className={styles.leftRow}>Юридический адрес:</td>
@@ -48,8 +48,8 @@ export default function Requisite() {
               <tr className={styles.row}>
                 <td className={styles.leftRow}>Фактический адрес:</td>
                 <td>
-                  399774, Липецкая область, город Елец, Московское шоссе, дом
-                  18, корпус «а»
+                  {`399774, Липецкая область, город Елец, Московское шоссе, дом
+                  18, корпус "а"`}
                 </td>
               </tr>
               <tr className={styles.row}>
@@ -81,7 +81,7 @@ export default function Requisite() {
               </tr>
               <tr className={styles.row}>
                 <td className={styles.leftRow}>Наименование банка:</td>
-                <td>Банк АО "АЛЬФА-БАНК"</td>
+                <td>{`Банк АО "АЛЬФА-БАНК"`}</td>
               </tr>
               <tr className={styles.row}>
                 <td className={styles.leftRow}>Расчётный счёт:</td>

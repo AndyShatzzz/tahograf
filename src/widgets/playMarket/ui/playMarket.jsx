@@ -8,7 +8,7 @@ export default function PlayMarket() {
     <section className={styles.container}>
       <div className={styles.contentContainer}>
         <h2 className={styles.title}>
-          Мобильное приложение &#34;Мой тахограф АТОЛ&#34;
+          {`Мобильное приложение "Мой тахограф АТОЛ"`}
         </h2>
         <a
           className={styles.link}
