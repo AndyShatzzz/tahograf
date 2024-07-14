@@ -18,7 +18,7 @@ export default function BrokenTaho() {
 
   useEffect(() => {
     layoutClickClose();
-  }, []);
+  }, [layoutClickClose]);
 
   return (
     <>

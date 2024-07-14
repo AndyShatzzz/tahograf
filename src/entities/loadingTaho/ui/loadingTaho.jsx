@@ -14,7 +14,7 @@ export default function LoadingTaho() {
 
   useEffect(() => {
     layoutClickClose();
-  }, []);
+  }, [layoutClickClose]);
 
   return (
     <>

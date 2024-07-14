@@ -19,7 +19,7 @@ export default function ArticleCard() {
 
   useEffect(() => {
     layoutClickClose();
-  }, []);
+  }, [layoutClickClose]);
 
   const dataArr = [
     {

@@ -14,7 +14,7 @@ export default function AnalogTaho() {
 
   useEffect(() => {
     layoutClickClose();
-  }, []);
+  }, [layoutClickClose]);
 
   return (
     <>

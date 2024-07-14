@@ -14,7 +14,7 @@ export default function TahoShim() {
 
   useEffect(() => {
     layoutClickClose();
-  }, []);
+  }, [layoutClickClose]);
 
   return (
     <>
