@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "./aboutcard.module.scss";
+import styles from "./aboutCard.module.scss";
 import { SpeedDial } from "@mui/material";
 import PhoneForwardedIcon from "@mui/icons-material/PhoneForwarded";
 import FeedBack from "../../../widgets/feedBack/ui/feedBack";
