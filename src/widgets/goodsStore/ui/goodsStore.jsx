@@ -42,7 +42,7 @@ export default function GoodsStore() {
       image: card,
       name: "Карта водителя",
       _id: "645cbe78-b498-4a49-b3ad-981188889253",
-      price: "от 5000 рублей",
+      price: "от 4500 рублей",
     },
     {
       image: speed,

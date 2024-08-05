@@ -9,7 +9,7 @@ export default function BlockSkzi() {
       <div className={styles.contentContainer}>
         <div className={styles.contentWrapper}>
           <h2 className={styles.title}>Замена блока НКМ тахографа</h2>
-          <p className={styles.price}>35 000 Р</p>
+          <p className={styles.price}>31 000 Р</p>
           <button
             className={styles.button}
             onClick={() => setIsOpenModal(true)}

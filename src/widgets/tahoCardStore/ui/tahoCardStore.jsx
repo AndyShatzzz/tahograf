@@ -52,7 +52,7 @@ export default function TahoCardStore() {
         </div>
         <div className={styles.descriptionContainer}>
           <h2 className={styles.title}>Карта водителя</h2>
-          <p className={styles.price}>от 5 000 ₽</p>
+          <p className={styles.price}>от 4 500 ₽</p>
           <button
             className={styles.button}
             onClick={() => setIsOpenModal(true)}
