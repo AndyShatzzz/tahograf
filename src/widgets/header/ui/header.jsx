@@ -75,8 +75,8 @@ export default function Header() {
           <a className={styles.links}></a>
         </div>
         <div className={styles.containerFeedback}>
-          <a className={styles.linkPhone} href="tel:+79103571205">
-            +7(910) 357-12-05
+          <a className={styles.linkPhone} href="tel:+74742391205">
+            +7(4742) 39-12-05
           </a>
           <div className={styles.socials}>
             <a
