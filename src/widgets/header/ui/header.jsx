@@ -84,7 +84,7 @@ export default function Header() {
               href="https://wa.me/79005963293"
               target="blank"
             >
-              <Avatar>
+              <Avatar sx={{ bgcolor: "#2cb742" }}>
                 <WhatsAppIcon />
               </Avatar>
             </a>
@@ -93,7 +93,7 @@ export default function Header() {
               href="https://t.me/Anton391205"
               target="blank"
             >
-              <Avatar>
+              <Avatar sx={{ bgcolor: "#27a7e7" }}>
                 <TelegramIcon />
               </Avatar>
             </a>
@@ -102,7 +102,7 @@ export default function Header() {
               href="mailto:TAHODRAYVER@MAIL.RU"
               target="blank"
             >
-              <Avatar>
+              <Avatar sx={{ bgcolor: "#3e65cf" }}>
                 <EmailIcon />
               </Avatar>
             </a>
@@ -110,7 +110,7 @@ export default function Header() {
         </div>
         {!isMenuOpen && (
           <Avatar
-            sx={{ margin: 0, padding: 0 }}
+            sx={{ margin: 0, padding: 0, bgcolor: "#bd9210" }}
             className={styles.menuButton}
             onClick={handleOpenMenu}
           >
@@ -118,7 +118,11 @@ export default function Header() {
           </Avatar>
         )}
         {isMenuOpen && (
-          <Avatar className={styles.menuButton} onClick={handleCloseMenu}>
+          <Avatar
+            className={styles.menuButton}
+            onClick={handleCloseMenu}
+            sx={{ bgcolor: "#bd9210" }}
+          >
             <CloseIcon />
           </Avatar>
         )}

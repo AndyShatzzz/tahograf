@@ -55,7 +55,7 @@ export default function Footer() {
               href="https://wa.me/79005963293"
               target="blank"
             >
-              <Avatar>
+              <Avatar sx={{ bgcolor: "#2cb742" }}>
                 <WhatsAppIcon />
               </Avatar>
             </a>
@@ -64,7 +64,7 @@ export default function Footer() {
               href="https://t.me/Anton391205"
               target="blank"
             >
-              <Avatar>
+              <Avatar sx={{ bgcolor: "#27a7e7" }}>
                 <TelegramIcon />
               </Avatar>
             </a>
@@ -73,7 +73,7 @@ export default function Footer() {
               href="mailto:TAHODRAYVER@MAIL.RU"
               target="blank"
             >
-              <Avatar>
+              <Avatar sx={{ bgcolor: "#3e65cf" }}>
                 <EmailIcon />
               </Avatar>
             </a>
