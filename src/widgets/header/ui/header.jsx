@@ -66,10 +66,14 @@ export default function Header() {
           <Link href="/requisites" className={styles.links}>
             РЕКВИЗИТЫ
           </Link>
-          <a href="/#shop" className={styles.links}>
+          <a href="/#shop" className={styles.links} onClick={handleCloseMenu}>
             МАГАЗИН
           </a>
-          <a href="/#contacts" className={styles.links}>
+          <a
+            href="/#contacts"
+            className={styles.links}
+            onClick={handleCloseMenu}
+          >
             КОНТАКТЫ
           </a>
           <a className={styles.links}></a>

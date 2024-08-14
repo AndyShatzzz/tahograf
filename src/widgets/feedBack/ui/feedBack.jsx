@@ -78,7 +78,10 @@ export default function FeedBack({ isOpenModal, setIsOpenModal }) {
             Оставьте заявку и мы Вам обязательно перезвоним!
           </p>
           <p className={styles.subtitle}>
-            Или Вы можете позвонить нам: +7(910) 357-12-05
+            Или Вы можете позвонить нам:{" "}
+            <a className={styles.linkPhone} href="tel:+74742391205">
+              +7(4742) 39-12-05
+            </a>
           </p>
           <TextField
             className={styles.textInput}
@@ -135,7 +138,7 @@ export default function FeedBack({ isOpenModal, setIsOpenModal }) {
             Заказать звонок
           </Button>
           <p className={styles.personalData}>
-            Нажимая &#34;Заказать звонок&#34;, вы принимаете Условия обработки
+            Нажимая {`"Заказать звонок"`}, вы принимаете Условия обработки
             персональных данных
           </p>
         </Box>

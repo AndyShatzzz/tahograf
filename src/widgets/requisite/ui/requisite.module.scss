@@ -154,7 +154,7 @@
 @media screen and (max-width: 630px) {
   .mainContainer {
     width: 300px;
-    height: 470px;
+    height: calc(100% / 2 + 60px);
     overflow: scroll;
     display: block;
   }

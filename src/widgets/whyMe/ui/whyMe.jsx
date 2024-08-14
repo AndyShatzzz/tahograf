@@ -12,27 +12,27 @@ export default function WhyMe() {
     {
       image: image2,
       title: "Сертифицированный центр",
-      _id: "6bdc2c2b-d8cf-41b0-8ee3-306beb3f28c7",
+      _id: "6bdc2c2b-d8cf-41b0-8ee3-306beb3f28c1",
     },
     {
       image: image3,
       title: "Выезд на удобное Вам место",
-      _id: "6bdc2c2b-d8cf-41b0-8ee3-306beb3f28c7",
+      _id: "6bdc2c2b-d8cf-41b0-8ee3-306beb3f28c2",
     },
     {
       image: image1,
       title: "Оборудование в наличии",
-      _id: "6bdc2c2b-d8cf-41b0-8ee3-306beb3f28c7",
+      _id: "6bdc2c2b-d8cf-41b0-8ee3-306beb3f28c3",
     },
     {
       image: image5,
       title: "Квалифицированный персонал",
-      _id: "6bdc2c2b-d8cf-41b0-8ee3-306beb3f28c7",
+      _id: "6bdc2c2b-d8cf-41b0-8ee3-306beb3f28c4",
     },
     {
       image: image4,
       title: "Гарантия на работу",
-      _id: "6bdc2c2b-d8cf-41b0-8ee3-306beb3f28c7",
+      _id: "6bdc2c2b-d8cf-41b0-8ee3-306beb3f28c5",
     },
   ];
   return (

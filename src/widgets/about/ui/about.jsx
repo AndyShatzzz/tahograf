@@ -13,7 +13,7 @@ export default function About() {
     {
       img: car,
       title: "УСТАНОВКА ТАХОГРАФОВ В ЛИПЕЦКЕ И ЛИПЕЦКОЙ ОБЛАСТИ",
-      _id: "8dbaf3ca-f523-4613-a06b-437eeb79e61e",
+      _id: "df710270-2db0-4345-bca5-cfe4bed46c74",
     },
     {
       img: car2,

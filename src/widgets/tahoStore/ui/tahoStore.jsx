@@ -43,7 +43,7 @@ export default function TahoStore() {
                   key={i}
                   className={styles.img}
                   src={item}
-                  alt="Картинка"
+                  alt="Изображение Тахографа АТОЛ Смарт"
                 />
               ))}
           </Slider>

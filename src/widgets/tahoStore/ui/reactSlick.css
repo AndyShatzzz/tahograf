@@ -1,6 +1,7 @@
 .containerContent {
   width: 400px;
-  margin-top: 20px;
+  height: 379px;
+  margin-top: calc(100% / 2 - 240px);
 }
 
 @media screen and (max-width: 920px) {
