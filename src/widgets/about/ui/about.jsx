@@ -32,7 +32,6 @@ export default function About() {
   const settings = {
     dots: true,
     infinite: true,
-    lazyLoad: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
