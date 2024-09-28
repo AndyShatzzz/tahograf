@@ -138,8 +138,14 @@ export default function FeedBack({ isOpenModal, setIsOpenModal }) {
             Заказать звонок
           </Button>
           <p className={styles.personalData}>
-            Нажимая {`"Заказать звонок"`}, вы принимаете Условия обработки
-            персональных данных
+            Нажимая {`"Заказать звонок"`}, вы принимаете
+            <a
+              target="blank"
+              className={styles.personalDataLink}
+              href="https://tahoguru.ru/personal-data-agreament-tahoguru.pdf"
+            >
+              {` Условия обработки персональных данных`}
+            </a>
           </p>
         </Box>
         <Snackbar

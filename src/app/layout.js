@@ -1,4 +1,6 @@
 import { Inter } from "next/font/google";
+import { Suspense } from "react";
+import { YandexMetrika } from "../features/yandexMetrica/yandexMetrica";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -12,7 +14,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ru">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Suspense>
+          <YandexMetrika />
+        </Suspense>
+        {children}
+      </body>
     </html>
   );
 }
